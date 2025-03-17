@@ -1,0 +1,35 @@
+// REGULAR 400
+@font-face {
+    font-family: 'GeneralSans';
+    font-weight: 400;
+    src: url('/assets/fonts/GeneralSans-Regular.woff2');
+    font-display: swap;
+    font-style: normal;
+}
+
+// MEDIUM 500
+@font-face {
+    font-family: 'GeneralSans';
+    font-weight: 500;
+    src: url('/assets/fonts/GeneralSans-Medium.woff2');
+    font-display: swap;
+    font-style: normal;
+}
+
+// SEMI-BOLD 600
+@font-face {
+    font-family: 'GeneralSans';
+    font-weight: 600;
+    src: url('/assets/fonts/GeneralSans-Semibold.woff2');
+    font-display: swap;
+    font-style: normal;
+}
+
+// BOLD 700
+@font-face {
+    font-family: 'GeneralSans';
+    font-weight: 700;
+    src: url('/assets/fonts/GeneralSans-Bold.woff2');
+    font-display: swap;
+    font-style: normal;
+}

@@ -1,0 +1,31 @@
+.top-categories {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    font-weight: 500;
+    margin-bottom: 100px;
+    &__main {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 40px;
+    }
+    &__item {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        transition: all 0.2s ease;
+        cursor: pointer;
+        &:hover {
+            transform: scale(105%, 105%);
+        }
+    }
+    &__item-title {
+        color: $black;
+        font-size: 16px;
+        margin-top: 15px;
+    }
+}
