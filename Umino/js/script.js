@@ -1,1 +1,0 @@
-const btnOne = document.q;
